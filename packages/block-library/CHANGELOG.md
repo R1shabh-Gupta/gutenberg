@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+### Enhancements
+
+-   Gallery, Social Link, Latest Posts: Stop adding `noopener` to the `rel` attribute of rendered links. Social Link still adds `nofollow` to links that open in a new tab.
+
 ### Bug Fixes
 
 -   Template Part: Show each template part's own description in the inserter, instead of discarding it ([#86102](https://github.com/WordPress/gutenberg/pull/86102)).
